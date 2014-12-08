@@ -4,6 +4,24 @@
 
 == ライセンス
 
+=== Groonga関連プロジェクトの画像
+
+images/以下にある以下のファイル。
+
+  * groonga-icon-full-size.svg
+
+また、images/以下にある次のファイルの中にあるGroongaのアイコン。
+
+  * log-search-system.svg
+
+CC BY-SA 3.0
+
+原著作者名は以下の通りです。
+
+  * Groongaプロジェクト
+
+=== その他
+
 CC0 1.0
 
 （パブリックドメイン）
