@@ -507,7 +507,7 @@
 
   # image
   # src = images/hatohol-log-search-form.png
-  # relative_height = 60
+  # relative_width = 100
 
 (('tag:center'))ダッシュボードに検索フォーム
 
