@@ -129,7 +129,7 @@
     subtype secure_forward
     <template> # 共通設定
       shared_key fluentd-secret
-      self_hostname router1.example.com
+      self_hostname "#{Socket.gethostname}"
       # バッファー設定は省略
     </template>
     # 個別ケースは後述
@@ -160,7 +160,7 @@
   <source>
     type secure_forward
     shared_key fluentd-secret
-    self_hostname archiver1.example.com
+    self_hostname "#{Socket.gethostname}"
     cert_auto_generate yes
   </source>
 
